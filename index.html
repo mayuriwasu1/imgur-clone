@@ -4,12 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href='https://css.gg/arrow-up-r.css' rel='stylesheet'>
-    <link href='https://css.gg/comment.css' rel='stylesheet'>
-    <link href='https://css.gg/eye.css' rel='stylesheet'>
-    <link rel="stylesheet" href="style.css" />
+    <link href="https://css.gg/arrow-up-r.css" rel="stylesheet" />
+    <link href="https://css.gg/comment.css" rel="stylesheet" />
+    <link href="https://css.gg/eye.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./src/styles.css" />
     <title>imgur: The magic of the internet</title>
-    <link rel="shortcut icon" href="/images/title.jpg" type="image/png">
+    <link rel="shortcut icon" href="/images/title.jpg" type="image/png" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="main-container">
@@ -70,7 +74,7 @@
             <div class="srchbar">
               <form class="srchbar-form" action="">
                 <input
-                oninput="debounce(main,1000)" 
+                  oninput="debounce(main,1000)"
                   class="srch-inpt"
                   class="din"
                   id="din"
@@ -86,9 +90,8 @@
               </form>
             </div>
           </div>
-            <!-- search div -->
-          <div class="search-items" id="search-items">
-          </div>
+          <!-- search div -->
+          <div class="search-items" id="search-items"></div>
           <div class="nav-rt">
             <div class="rt-nav-wrap">
               <div class="lft-icon">
@@ -120,8 +123,7 @@
                   </a>
                 </div>
               </div>
-            
-         
+
               <a class="ad-free" href="./Ad-free/adFree.html">Go Ad-Free</a>
               <a class="sign-in" href="Signing/signin.html">Sign in</a>
               <a class="signup" href="Signing/signin.html">
@@ -216,37 +218,88 @@
           </div>
         </div>
         <div class="mostViral">
-            <div class="mostViral-lft">
-                <span class="lft-mstv">
-                    <span class="mstv">MOST VIRAL</span>
-                </span>
-                <span class="rt-mstv">
-                    <span class="mstv">NEWEST</span>
-                </span>
+          <div class="mostViral-lft">
+            <span class="lft-mstv">
+              <span class="mstv">MOST VIRAL</span>
+            </span>
+            <span class="rt-mstv">
+              <span class="mstv">NEWEST</span>
+            </span>
+          </div>
+          <div class="mostViral-rt">
+            <div class="filter">
+              <img
+                style="margin-top: -4px; opacity: 0.4;"
+                src="https://s.imgur.com/desktop-assets/desktop-assets/icon-filter.551faed00bcf04e07c9e01a6874bd652.svg"
+                alt=""
+              />
             </div>
-            <div class="mostViral-rt">
-                <div class="filter">
-                    <img style="margin-top: -4px; opacity: 0.4;" src="https://s.imgur.com/desktop-assets/desktop-assets/icon-filter.551faed00bcf04e07c9e01a6874bd652.svg" alt="">
-                </div>
-                <div class="active">
-                    <img style="opacity: 0.4;" src="https://s.imgur.com/desktop-assets/desktop-assets/icon-pause.68f07ce1a7e07bac06d1f2c527d7a9e5.svg" alt="">
-                </div>
-                <div class="uniform">
-                    <svg style="overflow: hidden;" xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17"><rect id="backgroundrect" width="100%" height="100%" x="0" y="0" fill="none" stroke="none"></rect><g><g><g><polygon points="6.17870715566179,0 1.1573245256338325,0 0.15306144952774048,0 0.15306144952774048,1.0042672515679527 0.15306144952774048,6.0256540079346905 0.15306144952774048,7.02991762439467 1.1573245256338325,7.02991762439467 6.17870715566179,7.02991762439467 7.18298727747689,7.02991762439467 7.18298727747689,6.0256540079346905 7.18298727747689,1.0042672515679527 7.18298727747689,0 "></polygon></g></g><g><g><polygon points="6.278707504272461,10 1.25732421875,10 0.25306129455566406,10 0.25306129455566406,11.004266738891602 0.25306129455566406,16.025653839111328 0.25306129455566406,17.029918670654297 1.25732421875,17.029918670654297 6.278707504272461,17.029918670654297 7.282987594604492,17.029918670654297 7.282987594604492,16.025653839111328 7.282987594604492,11.004266738891602 7.282987594604492,10 "></polygon></g></g><g><g><polygon points="15.978708267211914,9.900003053247929 10.957324981689453,9.900003053247929 9.953062057495117,9.900003053247929 9.953062057495117,10.90426979213953 9.953062057495117,15.925656892359257 9.953062057495117,16.929921723902225 10.957324981689453,16.929921723902225 15.978708267211914,16.929921723902225 16.982988357543945,16.929921723902225 16.982988357543945,15.925656892359257 16.982988357543945,10.90426979213953 16.982988357543945,9.900003053247929 "></polygon></g></g><g><g><polygon points="15.878707885742188,-0.10000000149011612 10.857324600219727,-0.10000000149011612 9.85306167602539,-0.10000000149011612 9.85306167602539,0.9042667374014854 9.85306167602539,5.925653837621212 9.85306167602539,6.929918669164181 10.857324600219727,6.929918669164181 15.878707885742188,6.929918669164181 16.88298797607422,6.929918669164181 16.88298797607422,5.925653837621212 16.88298797607422,0.9042667374014854 16.88298797607422,-0.10000000149011612 "></polygon></g></g></g></svg>
-                </div>
+            <div class="active">
+              <img
+                style="opacity: 0.4;"
+                src="https://s.imgur.com/desktop-assets/desktop-assets/icon-pause.68f07ce1a7e07bac06d1f2c527d7a9e5.svg"
+                alt=""
+              />
             </div>
+            <div class="uniform">
+              <svg
+                style="overflow: hidden;"
+                xmlns="http://www.w3.org/2000/svg"
+                version="1.1"
+                width="17"
+                height="17"
+              >
+                <rect
+                  id="backgroundrect"
+                  width="100%"
+                  height="100%"
+                  x="0"
+                  y="0"
+                  fill="none"
+                  stroke="none"
+                ></rect>
+                <g>
+                  <g>
+                    <g>
+                      <polygon
+                        points="6.17870715566179,0 1.1573245256338325,0 0.15306144952774048,0 0.15306144952774048,1.0042672515679527 0.15306144952774048,6.0256540079346905 0.15306144952774048,7.02991762439467 1.1573245256338325,7.02991762439467 6.17870715566179,7.02991762439467 7.18298727747689,7.02991762439467 7.18298727747689,6.0256540079346905 7.18298727747689,1.0042672515679527 7.18298727747689,0 "
+                      ></polygon>
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <polygon
+                        points="6.278707504272461,10 1.25732421875,10 0.25306129455566406,10 0.25306129455566406,11.004266738891602 0.25306129455566406,16.025653839111328 0.25306129455566406,17.029918670654297 1.25732421875,17.029918670654297 6.278707504272461,17.029918670654297 7.282987594604492,17.029918670654297 7.282987594604492,16.025653839111328 7.282987594604492,11.004266738891602 7.282987594604492,10 "
+                      ></polygon>
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <polygon
+                        points="15.978708267211914,9.900003053247929 10.957324981689453,9.900003053247929 9.953062057495117,9.900003053247929 9.953062057495117,10.90426979213953 9.953062057495117,15.925656892359257 9.953062057495117,16.929921723902225 10.957324981689453,16.929921723902225 15.978708267211914,16.929921723902225 16.982988357543945,16.929921723902225 16.982988357543945,15.925656892359257 16.982988357543945,10.90426979213953 16.982988357543945,9.900003053247929 "
+                      ></polygon>
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <polygon
+                        points="15.878707885742188,-0.10000000149011612 10.857324600219727,-0.10000000149011612 9.85306167602539,-0.10000000149011612 9.85306167602539,0.9042667374014854 9.85306167602539,5.925653837621212 9.85306167602539,6.929918669164181 10.857324600219727,6.929918669164181 15.878707885742188,6.929918669164181 16.88298797607422,6.929918669164181 16.88298797607422,5.925653837621212 16.88298797607422,0.9042667374014854 16.88298797607422,-0.10000000149011612 "
+                      ></polygon>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </div>
+          </div>
         </div>
-        <br>
-      <br>
-      <br>
+        <br />
+        <br />
+        <br />
       </div>
-      <div style="width: 90%;">
-        <div class="grid-scroll">
-          
-        </div>
+      <div style="width: 100%;" class="AllImg">
+        <div class="grid-scroll"></div>
       </div>
-      
     </div>
   </body>
 </html>
-<script src="app.js"></script>
+<script src="/src/index.js"></script>
