@@ -1,8 +1,7 @@
 # imgur-clone
 
 
-## Tech Stack :wrench:
+## Tech Stack 
 
-#### Client:
 
 - `HTML` , `CSS` , `JavaScript`
