@@ -206,9 +206,9 @@ input {
   color: #fff;
   border: 0;
   outline: 0 none;
-  padding: 8px;
+  padding: 10px;
   cursor: pointer;
-  margin-left: 2px !important;
+  margin-right: -23px;
 }
 
 /* debouncing container */
@@ -233,7 +233,7 @@ input {
   background-color: #3c424b;
   gap: 2%;
   width: 32%;
-  margin-left: 60vh;
+  margin-left: 60.5vh;
   list-style: none;
   position: absolute;
   visibility: hidden;
@@ -393,9 +393,26 @@ input {
   transition: transform 0.3s;
   margin: 6px 6px 0;
   /* width: 232px; */
+  border-radius: 4px;
+}
+.tags1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border-radius: 3px;
+  background-color: rgba(121, 67, 200, 0.8);
+  /* background-image: url('https://i.imgur.com/R1dEESs_d.jpg?maxwidth=800&shape=thumb&fidelity=high'); */
+  background-size: auto 115px;
+  background-repeat: repeat-x;
+  background-position: 100% 0;
+  transition: transform 0.3s;
+  margin: 6px 6px 0;
+  /* width: 232px; */
+  border-radius: 4px;
 }
 
-.tags-title {
+.tags-title1 {
   font-family: Proxima Nova Bold, Helvetica Neue, Helvetica, Arial, sans-serif;
   padding: 12px;
   width: 89.8%;
@@ -403,6 +420,17 @@ input {
   color: #fff;
   background-color: rgb(64, 112, 181);
   box-sizing: inherit;
+  border-radius: 4px;
+}
+.tags-title {
+  font-family: Proxima Nova Bold, Helvetica Neue, Helvetica, Arial, sans-serif;
+  padding: 12px ;
+  width: 78.5%;
+  text-align: center;
+  color: #fff;
+  background-color: rgb(64, 112, 181);
+  box-sizing: inherit;
+  border-radius: 4px;
 }
 .tags-name {
   font-size: 14px;
@@ -418,6 +446,28 @@ input {
   line-height: 1.46;
   letter-spacing: 0.4px;
   color: hsla(0, 0%, 100%, 0.5);
+}
+#card2{
+  background-color: #2B8B9B;
+}
+#card4{
+  background-color: #8472BD;
+
+}
+#card5{
+  background-color: #BA519F;
+}
+#card6{
+  background-color: #132D31;
+}
+#card3{
+  background-color: #AB80B8;
+}
+#card7{
+  background-color: #2B1A5A;
+}
+#card8{
+  background-color: #E47D57;
 }
 .bottomwrap {
   width: 100%;
@@ -629,8 +679,11 @@ input {
 
 .thumb-up {
   color: #9297a0;
-  font-size: 16px;
+  font-size: 10px;
   margin-right: 4px;
+}
+.material-icons{
+  font-size: 15px !important
 }
 .thumb-up:hover,
 span {
@@ -649,6 +702,6 @@ span {
 .ComLikeDiv > span {
   display: flex;
   color: #9297a0;
-  font-size: 16px;
+  font-size: 14px;
   align-items: center;
 }
