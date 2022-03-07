@@ -480,7 +480,7 @@ input {
   height: 36px;
   min-width: 405px;
   width: 1264px;
-  bottom: -110px;
+  bottom: -30px;
 }
 .mostViral-lft {
   user-select: none;
@@ -634,7 +634,7 @@ input {
   margin: 0 auto;
   columns: 5;
   column-gap: 2%;
-  margin-top: 10%;
+  margin-top: 6%;
   margin-left: 7%;
   margin-right: 7%;
 }
