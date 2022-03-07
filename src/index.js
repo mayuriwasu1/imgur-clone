@@ -52,7 +52,6 @@ async function getdat() {
   });
 
   let main = await data.json();
-  console.log(main);
   let filterdata = main.data.filter((a) => {
     if (
       a.images !== undefined &&
@@ -69,7 +68,6 @@ async function getdat() {
 getdat();
 
 function showImage(data) {
-  console.log(data);
   data.forEach((item) => {
     let div = document.createElement("div");
     let img = document.createElement("img");
@@ -82,7 +80,7 @@ function showImage(data) {
     let ComLikCha = document.createElement("div");
     ComLikCha.innerHTML = `
     <div class="ComLikeDiv" > <span> <i class="material-icons thumb-up">
-    thumb_up
+    arrow_upward
 </i>${item.score}</span> 
 <span> <i class="material-icons thumb-up">
 chat_bubble
@@ -106,6 +104,15 @@ function showData() {
 }
 window.addEventListener("scroll", () => {
   //default
+
+  let scrollbar = document.querySelector(".navHome-main");
+
+  if (document.documentElement.scrollTop > 350) {
+    scrollbar.classList.add("navHome-active");
+  } else {
+    scrollbar.classList.remove("navHome-active");
+  }
+
   const { scrollHeight, scrollTop, clientHeight } = document.documentElement;
   if (scrollTop + clientHeight >= scrollHeight) {
     showData();
