@@ -1,3 +1,5 @@
+import { uRL_API_KEY, iMGUR_API_KEY } from "../in.js";
+
 var timeId;
 let list_box = document.getElementById("search-items");
 
@@ -23,7 +25,9 @@ async function main() {
 
 async function search(name) {
   try {
-    let res = await fetch(`https://www.omdbapi.com/?s=${name}&apikey=4b125d6`);
+    let res = await fetch(
+      `https://www.omdbapi.com/?s=${name}&apikey=${uRL_API_KEY}`
+    );
     let data = await res.json();
     return data;
   } catch (e) {
@@ -47,7 +51,7 @@ async function getdat() {
   const data = await fetch(`https://api.imgur.com/3/gallery/hot/viral/2`, {
     method: "GET",
     headers: {
-      Authorization: "Client-ID 07c42ba35c84a7e",
+      Authorization: `Client-ID ${iMGUR_API_KEY}`,
     },
   });
 
