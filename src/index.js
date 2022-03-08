@@ -1,3 +1,4 @@
+
 var timeId;
 let list_box = document.getElementById("search-items");
 
@@ -23,7 +24,7 @@ async function main() {
 
 async function search(name) {
   try {
-    let res = await fetch(`https://www.omdbapi.com/?s=${name}&apikey=4b125d6`);
+    let res = await fetch(`https://www.omdbapi.com/?s=${name}&apikey={process.env.API_KEY}`);
     let data = await res.json();
     return data;
   } catch (e) {
