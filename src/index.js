@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 import { uRL_API_KEY, iMGUR_API_KEY } from "../in.js";
-=======
->>>>>>> cb5a00e96cd7227e77c68e233bbafe00c2e2d879
 
 var timeId;
 let list_box = document.getElementById("search-items");
@@ -28,13 +25,9 @@ async function main() {
 
 async function search(name) {
   try {
-<<<<<<< HEAD
     let res = await fetch(
       `https://www.omdbapi.com/?s=${name}&apikey=${uRL_API_KEY}`
     );
-=======
-    let res = await fetch(`https://www.omdbapi.com/?s=${name}&apikey={process.env.API_KEY}`);
->>>>>>> cb5a00e96cd7227e77c68e233bbafe00c2e2d879
     let data = await res.json();
     return data;
   } catch (e) {
