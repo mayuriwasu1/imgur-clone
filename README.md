@@ -11,4 +11,4 @@
 ![glimpse](https://github.com/mayuriwasu1/imgur-clone/blob/main/images/redme2.png)
 
 
-[Demo](https://imgur-clone-beta.vercel.app/) 
+### [Demo](https://imgur-clone-beta.vercel.app/) ↗️
