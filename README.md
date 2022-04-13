@@ -1,7 +1,7 @@
-<h2 align="center"> imgur-clone</h2> 
+<h1 align="center"> imgur-clone</h1> 
 
 
-## Tech Stack  `HTML` , `CSS` , `JavaScript`
+#### Tech Stack  `HTML` , `CSS` , `JavaScript`
 
 
 
