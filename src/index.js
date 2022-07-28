@@ -47,7 +47,7 @@ async function getdat() {
   const data = await fetch(`https://api.imgur.com/3/gallery/hot/viral/2`, {
     method: "GET",
     headers: {
-      Authorization: "Client-ID 07c42ba35c84a7e",
+      Authorization: `Client-ID 07c42ba35c84a7e`,
     },
   });
 
