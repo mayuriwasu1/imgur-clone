@@ -4,7 +4,7 @@
 ## Tech Stack 
 
 
-- `HTML` , `CSS` , `JavaScript`
+- `HTML` , `CSS` , `JavaScript` 
 
 
 
